@@ -13,4 +13,3 @@ class Topic extends CI_Controller {
 		$this->load->view('footer');
 	}
 }
-?>
