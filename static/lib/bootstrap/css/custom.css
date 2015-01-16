@@ -3,7 +3,8 @@
 }
 
 .colorset {
+	float: left;
 	margin-top: 5px;
-	height: 55px;
-	width: 54px;
+	height: 2em;
+	width: 2em;
 }

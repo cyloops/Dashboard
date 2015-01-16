@@ -1,21 +1,12 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<!-- Bootstrap -->
-		<link href='http://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
-		<link href="/static/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
-		<link href="/static/lib/bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
-		<link href="/static/lib/bootstrap/css/custom.css" rel="stylesheet">
-		<link rel="stylesheet" href="/static/lib/goldengrid/GGS.css">
-		<script src="/static/lib/goldengrid/GGS.js"></script>
-		<script src="//ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
-		<script>
-  		WebFont.load({
-    		google: {
-      			families: ['Open Sans', 'Oswald']
-    		}
-  		});
-		</script>
-	</head>
-	<body>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title>Ion.RangeSlider - test</title>
+    <link rel="stylesheet" href="/static/lib/ionslider/css/normalize.css" />
+    <link rel="stylesheet" href="/static/lib/ionslider/css/ion.rangeSlider.css" />
+    <link rel="stylesheet" href="/static/lib/ionslider/css/ion.rangeSlider.skinFlat.css" />
+</head>
+<body>

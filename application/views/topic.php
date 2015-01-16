@@ -1,28 +1,34 @@
-<div style="margin-top:30px"></div>
-<div class="container-fluid">
- <div class="row-fluid">
-   <div class="span2"><span class="colorhead">flat color set</span>
-     <!--Color content-->
-      <table>
-        <tr>
-          <td class="colorset" style="background:#292826"></td>
-          <td class="colorset" style="background:#3d332a"></td>
-          <td class="colorset" style="background:#605448"></td>
-          <td class="colorset" style="background:#ea7351"></td>
-          <td class="colorset" style="background:#f9c82e"></td>
-        </tr>
-      </table>
+<div style="position: relative; padding: 200px;">
 
-      <div>
-        <div class="colorset" style="background:#292826"></div>
-        <div class="colorset" style="background:#3d332a"></div>
-        <div class="colorset" style="background:#605448"></div>
-        <div class="colorset" style="background:#ea7351"></div>
-        <div class="colorset" style="background:#f9c82e"></div>
-      </div>
-   </div>
-   <div class="span10">
-     <!--Body content-->
-   </div>
- </div>
+    <div>
+        <input type="text" id="range" value="" name="range" />
+    </div>
+
 </div>
+
+
+
+
+<!-- All JS -->
+<script src="/static/lib/ionslider/js/vendor/jquery-1.11.1.min.js"></script>
+<script src="/static/lib/ionslider/js/ion-rangeSlider/ion.rangeSlider.js"></script>
+
+<script>
+
+    $(function () {
+
+        $("#range").ionRangeSlider({
+            hide_min_max: true,
+            keyboard: true,
+            min: 0,
+            max: 5000,
+            from: 1000,
+            to: 4000,
+            type: 'double',
+            step: 1,
+            prefix: "$",
+            grid: true
+        });
+
+    });
+</script>
